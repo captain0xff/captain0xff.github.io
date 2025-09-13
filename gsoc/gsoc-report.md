@@ -44,7 +44,7 @@ Sadly, while the draggers and the dimension visualizers for most of the operatio
 * Implemented the draggers for the Thickness operation in Part workbench as a proof of concept.
 * Added OVPs for the properties that have draggers. [WIP, not merged]
 
-List of [PRs](https://github.com/FreeCAD/FreeCAD/pulls?q=is%3Apr+author%3Acaptain0xff+created%3A%3C2025-09-15) created before the end of GSoC.
+List of [PRs](https://github.com/FreeCAD/FreeCAD/pulls?q=is%3Apr+author%3Acaptain0xff+created%3A%3C%3D2025-09-15+) created before the end of GSoC.
 
 ## How to use the interactive controls
 The interactive controls were created with simplicity and ease of use in mind so most users should be able to figure them out easily. Still, this section tries to document how the author intends them to be used and some behaviors and tricks that might not be too obvious.
