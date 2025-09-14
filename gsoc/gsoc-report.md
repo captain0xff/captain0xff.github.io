@@ -53,6 +53,8 @@ To use the draggers one needs to click on the corresponding dragger geometry wit
 
 One can enable or disable the draggers by going to the `General` section of the `Part/PartDesign` tab in the Preferences menu and toggling the `Show interactive draggers during PartDesign tasks` option. There is also a `Disable recompute while dragging` option in the same page that can be used to only update the geometry after releasing the dragger.
 
+![Options for the interactive dragger](./pref-options.png)
+
 The draggers that are tied to linear parameters like the Pad length or the Helix height should be usually dragged along the axis to increase or decrease the value of the parameter. The draggers usually translate 1:1 with the parameter unless some modifier like Symmetric mode is enabled. Currently, the draggers are clamped above 0 because most operations in the PartDesign workbench doesn't have a well defined state when the parameter takes a value of 0. The increment factor of these draggers are scaled at powers of 10 depending on the zoom level to provide more precise control.
 
 ![Linear Dragger for Pad](./linear-dragger.gif)
